@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKUltra Hearing Archive</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --accent: #3b82f6;
+            --text: #e2e8f0;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .card {
+            background: #1e2937;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.3);
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MKUltra Congressional Hearing Archive</h1>
+            <p>Full Transcript Analysis • Academic Paper • Primary Sources</p>
+        </header>
+
+        <div class="card">
+            <h2>MKUltra Investigation: An Academic Analysis</h2>
+            <p>Detailed academic-style analysis of the congressional hearing transcript, including timestamped evidence, memory manipulation claims, institutional cover-ups, and more.</p>
+            <a href="mkultra.html" class="btn">Read the Full Analysis →</a>
+        </div>
+
+        <div class="card">
+            <h2>Original Transcript</h2>
+            <p>Raw congressional hearing transcript (with timestamps) on Project MKUltra, document destruction, human experimentation, and related programs.</p>
+            <a href="https://github.com/DTRHnet/real/blob/main/mkultra.txt" target="_blank" class="btn">View Raw Transcript</a>
+        </div>
+
+        <div class="card">
+            <h2>Video Source</h2>
+            <p>The full hearing video is available on YouTube.</p>
+            <a href="https://www.youtube.com/watch?v=dpQulJS-R50" target="_blank" class="btn">Watch Hearing Video</a>
+        </div>
+
+        <footer style="text-align:center; margin-top:3rem; opacity:0.7; font-size:0.9rem;">
+            <p>Hosted as static HTML • Built for transparency and research</p>
+        </footer>
+    </div>
+</body>
+</html>
